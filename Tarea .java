@@ -40,3 +40,20 @@ public class a1 {
 
 	}
 }
+/*
+		switch(opcion) {
+		case 1:
+			respuesta = "compras";
+			break;
+		case 2:
+			respuesta = "ventas";
+			break;
+		case 3:
+			respuesta = "reclamos";
+			break;
+		case 4:
+			respuesta = "salir";
+			break;
+			default:
+				respuesta = "opcion no valida";
+				break;*/
