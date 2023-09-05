@@ -18,12 +18,18 @@ public class Main {
             System.out.println("intento # " + intento + " : ingrese un numero: ");
             int numeroUsuario = scanner.nextInt();
 
-            if (numeroUsuario == numAdivinar){
+            if (numeroUsuario == numAdivinar) {
                 System.out.println(" felicitaciones adivinate el numero " + numAdivinar);
-            } else if (intento < intentos){
+            } else if (intento < intentos) {
                 System.out.println("estuvite cerca, vuelve a intentarlo" + (numeroUsuario < numAdivinar));
             } else {
                 System.out.println("casi lo conseguis maestro, este era el numero: " + numAdivinar);
+
+            }
+            if (numeroUsuario > numAdivinar) {
+                System.out.println("mas bajo");
+            } else if (numeroUsuario < numAdivinar) {
+                System.out.println("mas alto");
             }
         }
     }
