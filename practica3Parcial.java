@@ -15,18 +15,14 @@ public class tres1 {
             numeros[i] = scanner.nextInt();
         }
 
-        boolean hayPares = false;
+        for (int i = 0; i < numeros.length; i++) {
 
-        for (int numero : numeros) {
-            if (numero % 2 == 0) {
-                hayPares = true;
-                break;
+            if (numeros[i] % 2 == 0) {
+                System.out.println("el numero en la posicion " + i + " es par");
+            } else {
+                System.out.println("el numero en la posicion " + i + " es impar");
             }
         }
-        if (hayPares) {
-            System.out.println("hay numeros pares" );
-        }
+    }
     }
 
-
-    }
